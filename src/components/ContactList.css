@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact--header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.contact--header--button {
+  border: none;
+  background: #0074f7;
+  color: wheat;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact--edit--button {
+  border: none;
+  background: #008657;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 8px 10px;
+  color: white;
+}
+
+.contact--delete--button {
+  border: none;
+  background: #e63447;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 8px 12px;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 70%;
+  padding: 20px 15px;
+}
+
+form input {
+  border: 1px solid lightgray;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+form label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+form .register--buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+form .register--title {
+  margin-bottom: 1.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid lightgray;
+  padding: 12px 30px;
+  text-align: center;
+}
+
+.contact table thead tr:first-child {
+  background-color: white;
+}
+.contact table tr:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+.register--button {
+  border: none;
+  background: #0074f7;
+  color: wheat;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  float: right;
+}
+
+.add--input--row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.add--input--col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.add--input--row input {
+  width: 100%;
+}
